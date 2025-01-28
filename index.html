@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Documento</title>
+</head>
+<body>
+
+    <!-- Iniciar Sesion -->
+
+    <section class="login" id="Iniciar_sesion">
+        <div>
+            <h1><span>Somos</span> aroma</h1>
+            <p><span>Bienvenido de nuevo, por favor inicia sesión en tu cuenta.</span></p>
+        </div>
+        <form action="" id="login">
+            <div>
+                <div class="email">
+                    <label for="email" id="label1">Correo Electrónico</label>
+                    <input class="registro" type="text" id="email">
+                </div>
+                <div class="password">
+                    <label for="password" id="label2">Contraseña</label>
+                    <input class="registro" type="password" id="password">
+                </div>
+                <p class="verificacion" id="verificacion_password">Mínimo 6 caracteres</p>
+                <p class="verificacion" id="verificacion_email">Verifique su correo</p>
+                <p class="verificacion" id="campos">Rellene los campos</p>
+            </div>
+            <div class="remember">
+                <div>
+                    <input type="checkbox">
+                    <label for=""><span>Recuérdame</span></label>
+                </div>
+                <a href="">Olvidó su contraseña</a>
+            </div>
+            <div class="buttons">
+                <button class="sesion" type="submit" id="login">Iniciar sesión</button>
+                <button class="sign_up" type="submit" id="pag_registrar">Registrarse</button>
+            </div>
+        </form>
+    </section>
+
+    <!-- Registrarse -->
+
+    <section class="login2" id="registro">
+        <div>
+            <h1><span>Somos</span> aroma</h1>
+            <p><span>Unete a nosotros</span></p>
+        </div>
+        <form action="" id="registrarse">
+            <div>
+                <div class="usuario">
+                    <label for="usurname" id="label3">Usuario</label>
+                    <input class="registro" type="text" id="username">
+                </div>
+                <div class="email">
+                    <label for="email" id="label4">Correo Electrónico</label>
+                    <input class="registro" type="text" id="email_registro">
+                </div>
+                <div class="password">
+                    <label for="password" id="label5">Contraseña</label>
+                    <input class="registro" type="password" id="password_registro">
+                </div>
+                <div class="password">
+                    <label for="password" id="label6">Confirmar Contraseña</label>
+                    <input class="registro" type="password" id="password_confirmacion">
+                </div>
+                <p class="verificacion" id="email_registro_verificacion">Verifique su correo</p>
+                <p class="verificacion" id="password_verificacion">Verifique su contraseña</p>
+                <p class="verificacion" id="usuario">Mínimo 6 caracteres</p>
+                <p class="verificacion" id="campos_registro">Rellene los campos</p>
+            </div>
+            <div class="buttons">
+                <button class="sign_up2" type="submit" id="registrate">Registrarse</button>
+            </div>
+        </form>
+    </section>
+
+    <section class="logo">
+        <img class="hojas" src="/img/hojas.svg" alt="plantas">
+        <img class="letra" src="/img/A.svg" alt="letra">
+        <div class="container">
+            <nav>
+                <a href="#">SOBRE NOSOTROS</a>
+                <a href="#">VITRINA</a>
+                <a href="#">CARTAS</a>
+                <a href="#">CONTACTO</a>
+                <a href="#">BLOG</a>
+            </nav>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
